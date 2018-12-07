@@ -1,0 +1,262 @@
+#homepagebody {
+
+  margin: 0;
+  font-family: 'Unlock', cursive;
+  font-weight: 500;
+
+}
+
+/*dealing with nav bar*/
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: white;
+  opacity: 0.6
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+nav {
+  float: right;
+  font-family: 'Unlock', cursive;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 200px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 17px;
+
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+  position: absolute;
+  top: 0;
+  width: 0%;
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+.logo {
+  width: 80px;
+  height: 60px;
+  /*position: fixed;
+top: 0;
+width: 100%;
+left: 200px;*/
+}
+
+
+}
+
+/* Home Page */
+#homemainheading {
+  margin: 0%;
+  padding: 0%;
+  text-align: center;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-300%);
+  color: black;
+}
+
+#page1 p {
+  margin: 0%;
+  padding: 0%;
+  text-align: center;
+  position: absolute;
+  top: 10%;
+  left: 70%;
+  transform: translateX(-20%) translateY(100%);
+}
+
+#page2 h1 {
+  margin: 0%;
+  padding: 0%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(2000%);
+  color: white;
+}
+
+#page2 p {
+  margin: 0%;
+  padding: 0%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(1200%);
+  color: white;
+}
+
+#page3 h1 {
+  margin: 0%;
+  padding: 0%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(3600%);
+  color: white;
+}
+
+#page3 ul {
+  margin: 0%;
+  padding: 0%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(500%);
+  color: white;
+}
+
+
+#page1 {
+  background-image: url("/Users/Elena/Desktop/BSSA/study/Basic Website - German Expressionism /img/caligari.jpg");
+
+}
+
+#page2 {
+  background-image: url("/Users/Elena/Desktop/BSSA/study/Basic Website - German Expressionism /img/homebackground.jpg");
+
+}
+
+#page3 {
+  background-image: url("/Users/Elena/Desktop/BSSA/study/Basic Website - German Expressionism /img/german-exx.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/*film list*/
+
+#itemone {
+  background-image: url("/Users/Elena/Desktop/BSSA/study/Basic Website - German Expressionism /img/caligariface.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #000;
+}
+#itemone h3 {
+  margin: 0%;
+  padding: 0%;
+  text-align: center;
+  position: absolute;
+  top: 100%;
+  left: 80%;
+  transform: translateX(-60%) translateY(-100%);
+  color:white;
+}
+/*#itemone p {
+  margin: 0%;
+  padding: 0%;
+  text-align: center;
+  position: absolute;
+  top: 10%;
+  left: 70%;
+  transform: translateX(-20%) translateY(100%);
+  color: white;
+}*/
+
+#itemthree {
+  background-image: url("/Users/Elena/Desktop/BSSA/study/Basic Website - German Expressionism /img/nosferatu.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #000;
+}
+#itemthree h3 {
+  margin: 0%;
+  padding: 0%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translateX(-60%) translateY(4300%);
+  color: white;
+}
+
+#itemsix {
+  background-image: url("/Users/Elena/Desktop/BSSA/study/Basic Website - German Expressionism /img/metropolisrobot.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #000;
+}
+#itemsix h3 {
+  margin: 0%;
+  padding: 0%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translateX(-60%) translateY(7200%);
+  color: white;
+}
+
+
+
+
+/*Contact page*/
+#contactheading {
+  margin: 0%;
+  padding: 0%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-200%);
+  color: white;
+}
+
+#contactform {
+  margin: 0%;
+  padding: 0%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: white;
+} 
+#contactformbody {
+  background-image: url("/Users/Elena/Desktop/BSSA/study/Basic Website - German Expressionism /img/FZzOE0.jpg");
+}

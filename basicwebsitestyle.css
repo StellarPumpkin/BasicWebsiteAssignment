@@ -76,13 +76,6 @@ nav a:hover::before {
 .logo {
   width: 80px;
   height: 60px;
-  /*position: fixed;
-top: 0;
-width: 100%;
-left: 200px;*/
-}
-
-
 }
 
 /* Home Page */
@@ -153,17 +146,17 @@ left: 200px;*/
 
 
 #page1 {
-  background-image: url("/Users/Elena/Desktop/BSSA/study/Basic Website - German Expressionism /img/caligari.jpg");
+  background-image: url("img/caligari.jpg");
 
 }
 
 #page2 {
-  background-image: url("/Users/Elena/Desktop/BSSA/study/Basic Website - German Expressionism /img/homebackground.jpg");
+  background-image: url("img/homebackground.jpg");
 
 }
 
 #page3 {
-  background-image: url("/Users/Elena/Desktop/BSSA/study/Basic Website - German Expressionism /img/german-exx.png");
+  background-image: url("img/german-exx.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -172,11 +165,12 @@ left: 200px;*/
 /*film list*/
 
 #itemone {
-  background-image: url("/Users/Elena/Desktop/BSSA/study/Basic Website - German Expressionism /img/caligariface.jpg");
+  background-image: url("img/caligariface.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-color: #000;
 }
+
 #itemone h3 {
   margin: 0%;
   padding: 0%;
@@ -185,25 +179,16 @@ left: 200px;*/
   top: 100%;
   left: 80%;
   transform: translateX(-60%) translateY(-100%);
-  color:white;
-}
-/*#itemone p {
-  margin: 0%;
-  padding: 0%;
-  text-align: center;
-  position: absolute;
-  top: 10%;
-  left: 70%;
-  transform: translateX(-20%) translateY(100%);
   color: white;
-}*/
+}
 
 #itemthree {
-  background-image: url("/Users/Elena/Desktop/BSSA/study/Basic Website - German Expressionism /img/nosferatu.jpg");
+  background-image: url("img/nosferatu.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-color: #000;
 }
+
 #itemthree h3 {
   margin: 0%;
   padding: 0%;
@@ -216,11 +201,12 @@ left: 200px;*/
 }
 
 #itemsix {
-  background-image: url("/Users/Elena/Desktop/BSSA/study/Basic Website - German Expressionism /img/metropolisrobot.jpg");
+  background-image: url("img/metropolisrobot.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-color: #000;
 }
+
 #itemsix h3 {
   margin: 0%;
   padding: 0%;
@@ -256,7 +242,8 @@ left: 200px;*/
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   color: white;
-} 
+}
+
 #contactformbody {
-  background-image: url("/Users/Elena/Desktop/BSSA/study/Basic Website - German Expressionism /img/FZzOE0.jpg");
+  background-image: url("img/FZzOE0.jpg");
 }

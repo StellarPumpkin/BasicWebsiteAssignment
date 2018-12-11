@@ -3,7 +3,7 @@
 
     <head>
         <title>listoffilms</title>
-        <link rel="stylesheet" type="text/css" href="/Users/Elena/Desktop/BSSA/study/Basic Website - German Expressionism /basicwebsitestyle.css">
+        <link rel="stylesheet" type="text/css" href="basicwebsitestyle.css">
         <link href="https://fonts.googleapis.com/css?family=Unlock" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     </head>
@@ -11,8 +11,7 @@
     <body id="listoffilmsbody">
         <header>
             <div class="container">
-                <img src="/Users/Elena/Desktop/BSSA/study/Basic Website - German Expressionism /img/metropolis.png" alt="logo"
-                    class="logo">
+                <img src="img/metropolis.png" alt="logo" class="logo">
                 <nav>
                     <ul>
                         <li><a href="Home.html">Home</a></li>
@@ -23,107 +22,52 @@
             </div>
         </header>
         <div id="itemone" class="filmpage">
-                <a id="filmone"></a>
+            <a id="filmone"></a>
             <h3 class="filmtitles">The Cabinet of Dr. Caligari (1920)</h3>
-            <!--<p class="filmsynopsis">
-                Routinely cited as one of the greatest films ever made, this classic of German Expressionism presents
-                an
-                abstract plunge into insanity, with a sinister tale of psychosis and murder, set in a warped Gothic
-                landscape of disorienting angles and jarring contrasts of light, shadow, and substance.
-                
-            </p>-->
-            <!--<img id="filmlistscroll" src="/Users/Elena/Desktop/BSSA/study/Basic Website - German Expressionism /img/listoffilmssymbolscroll.png" alt="scrolldown">-->
-        </div>
-             <!--<div id="itemtwo" class="filmpage">
-                <a id="filmtwo"></a>
-             <h3 class="filmtitles">The Golem: How He Came into the World (1920)</h3>
-             <p class="filmsynopsis">
-                In the Jewish ghetto in 16th Century Prague, the community leader and astrologer Rabbi Löw’s foresees
-                doom
-                for his people written in the stars. In an attempt to save his people, Löw creates a forbidding clay
-                golem
-                that he brings to life with the assistance of a demon spirit.
-            </p>
-           <img id="filmlistscroll" src="/Users/Elena/Desktop/BSSA/study/Basic Website - German Expressionism /img/listoffilmssymbolscroll.png" alt="scrolldown">-->
-        <!--</div>-->
-        <div id="itemthree" class="filmpage">
-                <a id="filmthree"></a>
-            <h3 class="filmtitles">Nosferatu (1922)</h3>
-            <!--<p class="filmsynopsis">
-                An (unauthorized) adaptation of Bram Stoker’s Dracula, Nosferatu tells the story of the frightening
-                Count
-                Orlok, who descends from the mountains like a plague onto a small German village…
-            </p>-->
-           <!-- <img id="filmlistscroll" src="/Users/Elena/Desktop/BSSA/study/Basic Website - German Expressionism /img/listoffilmssymbolscroll.png" alt="scrolldown">-->
-        </div>
-        <!--<div id="itemfour" class="filmpage">
-                <a id="filmfour"></a>
-            <h3 class="filmtitles">Die Nibelungen: Kriemhild’s Revenge(1924)</h3>
-            <p class="filmsynopsis">
-                After Siegfried’s death, Kriemhild—sister of King Gunther—is consumed by hatred and an unquenchable
-                thirst
-                for vengeance. Enlisting the aid of Attila the Hun and his marauding legions, she intends to tear apart
-                her
-                brother’s kingdom until Siegfried’s murderer is handed over to her.
-            </p>
-           <!-- <img id="filmlistscroll" src="/Users/Elena/Desktop/BSSA/study/Basic Website - German Expressionism /img/listoffilmssymbolscroll.png" alt="scrolldown">-->
-        <!--</div>-->
-        <!--<div id="itemfive" class="filmpage">
-                <a id="filmfive"></a>
 
-            <h3 class="filmtitles">Faust(1926)</h3>
-            <p class="filmsynopsis">
-                God and Satan war over earth; to settle things, they wager on the soul of Faust, a learned and
-                prayerful
-                alchemist.
-            </p>
-           <!-- <img id="filmlistscroll" src="/Users/Elena/Desktop/BSSA/study/Basic Website - German Expressionism /img/listoffilmssymbolscroll.png" alt="scrolldown">-->
-        <!--</div>-->
+        </div>
+
+        <div id="itemthree" class="filmpage">
+            <a id="filmthree"></a>
+            <h3 class="filmtitles">Nosferatu (1922)</h3>
+
+        </div>
+
         <div id="itemsix" class="filmpage">
-                <a id="filmsix"></a>
+            <a id="filmsix"></a>
             <h3 class="filmtitles">Metropolis (1927)</h3>
-            <!--<p class="filmsynopsis">
-                An influential German sci-fi set in a highly-stylized city where a beautiful utopia exists above a
-                bleak
-                underworld populated by downtrodden workers. Privileged youth Freder discovers the grim scene beneath
-                the
-                surface and sets out to free them with the aid of rebellious teacher Maria.
-            </p>-->
-            <!--<img id="filmlistscroll" src="/Users/Elena/Desktop/BSSA/study/Basic Website - German Expressionism /img/listoffilmssymbolscroll.png" alt="scrolldown">-->
+
         </div>
 
     </body>
     <script>
-            $(document).ready(function () {
-                $(".filmpage").css({
-                    height: $(window).height(),
-                });
-    
-                pages = [
-                    '#itemone',
-                    /*'#itemtwo',*/
-                    '#itemthree',
-                    /*'#itemfour',
-                    '#itemfive',*/
-                    '#itemsix'
-                ];
-    
-                length = pages.length;
-                currentPosition = 0;
-    
-                $(".filmpage").click(function () {
-                    $("html, body").animate({
-                        scrollTop: $(pages[currentPosition]).offset().top
-                    }, 600);
-    
-                    currentPosition += 1;
-                    if (currentPosition == length) {
-                        currentPosition = 0;
-                    }
-    
-                    return false;
-                });
+        $(document).ready(function () {
+            $(".filmpage").css({
+                height: $(window).height(),
             });
-        </script>
 
+            pages = [
+                '#itemone',
+
+                '#itemthree',
+
+                '#itemsix'
+            ];
+
+            length = pages.length;
+            currentPosition = 0;
+
+            $(".filmpage").click(function () {
+                $("html, body").animate({
+                    scrollTop: $(pages[currentPosition]).offset().top
+                }, 600);
+                currentPosition += 1;
+                if (currentPosition == length) {
+                    currentPosition = 0;
+                }
+
+                return false;
+            });
+        });
+    </script>
 </html>
